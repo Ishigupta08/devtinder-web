@@ -8,6 +8,5 @@ module.exports = {
         // Add custom theme configurations here if needed
       },
     },
-    plugins: [],
+    plugins: [require("daisyui")]
   };
-  
