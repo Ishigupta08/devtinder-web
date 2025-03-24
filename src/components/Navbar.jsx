@@ -14,7 +14,7 @@ const NavBar = () => {
           withCredentials: true,
         }
       );
-      navigate("/");
+      navigate("/login");
     } catch (err) {
       console.error(err, "error");
     }

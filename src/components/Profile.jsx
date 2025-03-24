@@ -20,7 +20,7 @@ const Profile = () => {
           dispatch(addUser(response.data.data));
         } catch (err) {
           console.error("Error fetching profile:", err);
-          navigate("/");
+          navigate("/login");
         }
       };
       fetchProfile();
